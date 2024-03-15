@@ -287,6 +287,7 @@ active-link{
 }
 .home__data{
   row-gap: 1.5rem;
+  align-items: center;
 
 }
 .home__title{
@@ -307,6 +308,7 @@ active-link{
   border-radius: 6.25rem;
   place-items: center;
   transition: background .4s;
+  align-items: center;
 }
 
 
@@ -318,7 +320,8 @@ active-link{
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  margin-left:10rem;
   
 }
 
@@ -326,6 +329,8 @@ active-link{
 .home__perfil img{
   width: 150px;
   justify-content: center;
+  margin-left:2rem;
+  margin-top:3rem;
 
 }
 
@@ -333,6 +338,7 @@ active-link{
 .home__shape-circle{
   position: absolute;
   opacity: .1;
+  align-items: center;
 }
 .home__shape-wawes{
   width: 50px;
@@ -351,6 +357,8 @@ active-link{
   justify-self: center;
   display: flex;
   column-gap: 1.25rem;
+  margin-left:10rem;
+  margin-top: -4rem;
 }
 .home__social-link:hover{
   
