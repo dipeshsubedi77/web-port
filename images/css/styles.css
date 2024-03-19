@@ -1027,6 +1027,10 @@ gap: 1rem 1.25rem;
     order: 3;
     text-align: right;
   }
+
+  
+
+  }
   .home__info{
     margin-top: 10rem;
   }
@@ -1057,6 +1061,9 @@ gap: 1rem 1.25rem;
     justify-content: center;
     column-gap: 8rem;
   }
+}
+.dipesh{
+  color:var(--gradient-color)
 }
 
 
