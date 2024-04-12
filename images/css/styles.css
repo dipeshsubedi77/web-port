@@ -1222,7 +1222,7 @@ gap: 1rem 1.25rem;
   
 
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/condo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1287,7 +1287,7 @@ gap: 1rem 1.25rem;
 
 @media screen and (min-width:633) {
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/condo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1350,7 +1350,7 @@ gap: 1rem 1.25rem;
   
 
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/condo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
