@@ -1233,7 +1233,7 @@ gap: 1rem 1.25rem;
     font-size: 20px;
   }
   .home__container p{
-    color:#ea8f07;
+    color:rgb(255, 249, 249);
     
   }
   .home__blob,
@@ -1241,7 +1241,8 @@ gap: 1rem 1.25rem;
     display: none;
   }
   h1{
-    color:#ea8f07;
+    
+    color:rgb(255, 249, 249);
   }
   span {
     color: rgb(37, 232, 37);
@@ -1297,7 +1298,8 @@ gap: 1rem 1.25rem;
     font-size: 20px;
   }
   .home__container p{
-    color:#ea8f07;
+    /* color:#ea8f07; */
+    color:rgb(255, 249, 249);
     
   }
   .home__blob,
@@ -1305,7 +1307,7 @@ gap: 1rem 1.25rem;
     display: none;
   }
   h1{
-    color:#ea8f07;
+    color:rgb(255, 249, 249);
   }
   span {
     color: rgb(37, 232, 37);
@@ -1355,11 +1357,11 @@ gap: 1rem 1.25rem;
     
   }
   .home__container h3{
-    color: rgb(255, 255, 3);
+    color:rgb(255, 249, 249);
     font-size: 20px;
   }
   .home__container p{
-    color:#ea8f07;
+    color:rgb(255, 249, 249);
     
   }
   .home__blob,
@@ -1368,7 +1370,7 @@ gap: 1rem 1.25rem;
     display: none;
   }
   h1{
-    color:#ea8f07;
+    color:rgb(255, 249, 249);
   }
   span {
     color: rgb(37, 232, 37);
