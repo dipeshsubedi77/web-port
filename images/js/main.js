@@ -182,11 +182,15 @@ sr.reveal('.qualification__content,services__card', {interval:100})
 
 
 
-// typewriter
-var typed = new Typed("#typewriter",{
+typewriter
+const typed = new Typed("#typewriter",{
   strings:["","Web Desiginer","Web Developer","Graphic Desiginer","Youtuber","Freelancer","Logo Desiginer","Student"],
   typedSpeed:100,
   BackSpeed:60,
-  loop:true
-})
+  loop:true,
+  backDelay: 900,
+
+  backSpeed: 30,
+});
+
 
