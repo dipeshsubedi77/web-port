@@ -179,3 +179,14 @@ sr.reveal('.home__info div', {delay: 600, origin: 'bottom', interval: 100})
 sr.reveal('.skills__content:nth-child(1), contact__content:nth-child(1)', { origin: 'left'})
 sr.reveal('.skills__content:nth-child(2), contact__content:nth-child(2)', { origin: 'right'})
 sr.reveal('.qualification__content,services__card', {interval:100})
+
+
+
+// typewriter
+var typed = new Typed("#typewriter",{
+  strings:["","Web Desiginer","Web Developer","Graphic Desiginer","Youtuber","Freelancer","Logo Desiginer","Cyber Security","Social Media Manager","Student"],
+  typedSpeed:100,
+  BackSpeed:60,
+  loop:true
+})
+

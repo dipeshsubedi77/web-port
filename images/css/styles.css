@@ -972,6 +972,41 @@ font-weight: initial;
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px){
+  .home__container{
+    background-image: url('/images/img/condo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: #141163;
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil{
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+  .home__container a:hover{
+    color: yellow;
+  }
+
+
+
   .container{
     margin-inline: 1rem;
 
@@ -993,8 +1028,234 @@ gap: 1rem 1.25rem;
   justify-self: center;
 }
 }
+
+
+@media screen and (max-width: 440px){
+  .home__container{
+    background-image: url('/images/img/dipeshrealpp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: #141163;
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil
+   {
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+  .home__container a:hover{
+    color: yellow;
+  }
+
+
+
+  .container{
+    margin-inline: 1rem;
+
+  }
+  
+.nav__menu{
+  padding-bottom: 4rem;
+}
+.nav__list{
+gap: 1rem 1.25rem;
+
+}
+
+.skills__info{
+  grid-template-columns: repeat(2, 1fr);
+}
+.projects__img{
+  width: 200px;
+  justify-self: center;
+}
+}
+
+
+
+@media screen and (max-width: 500px){
+  .home__container{
+    background-image: url('/images/img/dipeshrealpp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: #141163;
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil
+   {
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+  .home__container a:hover{
+    color: yellow;
+  }
+
+
+
+  .container{
+    margin-inline: 1rem;
+
+  }
+  
+.nav__menu{
+  padding-bottom: 4rem;
+}
+.nav__list{
+gap: 1rem 1.25rem;
+
+}
+
+.skills__info{
+  grid-template-columns: repeat(2, 1fr);
+}
+.projects__img{
+  width: 200px;
+  justify-self: center;
+}
+}
+
+/* more than 440 */
+@media screen and (max-width: 470px){
+  .home__container{
+    background-image: url('/images/img/dipeshrealpp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: #141163;
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil
+   {
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+  .home__container a:hover{
+    color: yellow;
+  }
+
+
+
+  .container{
+    margin-inline: 1rem;
+
+  }
+  
+.nav__menu{
+  padding-bottom: 4rem;
+}
+.nav__list{
+gap: 1rem 1.25rem;
+
+}
+
+.skills__info{
+  grid-template-columns: repeat(2, 1fr);
+}
+.projects__img{
+  width: 200px;
+  justify-self: center;
+}
+}
+
+
+
+
+
+
+
+
 /* For medium devices */
 @media screen and (min-width: 576px){
+  
+
+  .home__container{
+    background-image: url('/images/img/condo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: #141163;
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil{
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+  .home__container a:hover{
+    color: rgb(44, 27, 195);
+  }
+
+
+  
   .nav,
   .nav__menu{
     width: 380px;
@@ -1023,7 +1284,103 @@ gap: 1rem 1.25rem;
   }
 }
 
+@media screen and (min-width:633) {
+  .home__container{
+    background-image: url('/images/img/condo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: #141163;
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil{
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+  .nav,
+  .nav__menu{
+    width: 380px;
+
+  }
+  .nav{
+    margin: 0 auto;
+  }
+  .skills__container{
+    justify-content: center;
+  }
+  .projects__container,
+  .testimonial__container{
+    width: 400px;
+
+  }
+  .projects__container{
+    overflow: hidden;
+  }
+  .projects__container .swiper-button-prev{
+    left: 1rem;
+
+  }
+  .projects__container .swiper-button-next{
+    right:1rem;
+  }
+
+  
+}
+
 @media screen and (min-width: 767px){
+  
+
+  .home__container{
+    background-image: url('/images/img/condo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .home__container h3{
+    color: rgb(255, 255, 3);
+    font-size: 20px;
+  }
+  .home__container p{
+    color: white;
+    
+  }
+  .home__blob,
+  .home__perfil
+   {
+    display: none;
+  }
+  h1{
+    color: white;
+  }
+  span {
+    color: rgb(37, 232, 37);
+
+  }
+  .home__container a{
+    color: rgb(217, 196, 0);
+  }
+
+
+
+  
   .home__container{
     grid-template-columns: 1fr 2fr 1fr;
   }
