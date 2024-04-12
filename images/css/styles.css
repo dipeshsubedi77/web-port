@@ -1152,7 +1152,7 @@ gap: 1rem 1.25rem;
 /* more than 440 */
 @media screen and (max-width: 470px){
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/condo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
