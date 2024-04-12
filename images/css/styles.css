@@ -76,7 +76,7 @@ body {
   transition: background .4s; /* for dark mode animation */
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
   color: var(--title-color);
   font-family: var(--title-font);
   font-weight: var(--font-medium);
@@ -246,8 +246,8 @@ body.dark-theme {
   align-items: center;
   row-gap: .25rem;
   font-size: var(--small-font-size);
-  color: var(--text-color);
-  transition: background .4s;
+  color: var(--text-color-light);
+  transition: color .3s;
 
 }
 .nav__link:hover{
@@ -287,7 +287,7 @@ active-link{
 }
 .home__data{
   row-gap: 1.5rem;
-  align-items: center;
+  
 
 }
 .home__title{
@@ -295,7 +295,7 @@ active-link{
   font-size: var(--biggest-font-size);
   letter-spacing: .3px;
   margin-bottom: .5rem;
-  margin-left:10rem;
+ 
 
 }
 
@@ -314,32 +314,29 @@ active-link{
 
 
 .home__perfil{
-  width: 200px;
-  height: 270px;
+  width: 170px;
+  height: 260px;
   background: var(--gradient-color);
   border-radius: 5.5rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left:10rem;
+  align-items: flex-end;
+ 
   
 }
 
 
 .home__perfil img{
   width: 150px;
-  justify-content: center;
-  margin-left:2rem;
-  margin-top:3rem;
-
+  
 }
 
 .home__shape-wawes,
 .home__shape-circle{
   position: absolute;
   opacity: .1;
-  align-items: center;
+  
 }
 .home__shape-wawes{
   width: 50px;
@@ -349,6 +346,7 @@ active-link{
 .home__shape-circle{
   width: 150px;
   bottom: -2rem;
+  right: -3rem;
   transform: rotate(15deg);
   z-index: -1;
 }
@@ -358,12 +356,20 @@ active-link{
   justify-self: center;
   display: flex;
   column-gap: 1.25rem;
-  margin-left:10rem;
-  margin-top: -4rem;
+ 
 }
+
+.home__social-link{
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+  transition: color .3s;
+
+
+}
+
 .home__social-link:hover{
   
-  color: var(--text-color);
+  color: var(--title-color);
 }
 .home__info{
   display: grid;
@@ -384,9 +390,9 @@ active-link{
   color: var(--title-color);
 
 }
-.home__info-description{
-  padding-right: 4rem;
-
+.home__info-description
+{
+  padding-right : 4rem;
 }
 .home__info-number{
   font-size: var(--h1-font-size);
@@ -943,11 +949,12 @@ font-weight: initial;
 .scrollup{
   position: fixed;
   right: 1rem;
-  bottom: 7.5rem;
+  bottom: -30%;
   background-color: var(--body-color);
   box-shadow: 0 4px 12px hsl(207, 24%, 35% .15);
   display: inline-flex;
   padding: .35rem;
+  border-radius: .25rem;
   font-size: 1.1rem;
   color: var(--title-color);
   z-index: var(--z-tooltip);
@@ -987,7 +994,7 @@ gap: 1rem 1.25rem;
 }
 }
 /* For medium devices */
-@media screen and (min-width:576px){
+@media screen and (min-width: 576px){
   .nav,
   .nav__menu{
     width: 380px;
@@ -1030,7 +1037,7 @@ gap: 1rem 1.25rem;
 
   
 
-  }
+  
   .home__info{
     margin-top: 10rem;
   }
@@ -1061,9 +1068,6 @@ gap: 1rem 1.25rem;
     justify-content: center;
     column-gap: 8rem;
   }
-}
-.dipesh{
-  color:var(--gradient-color)
 }
 
 
