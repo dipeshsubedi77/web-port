@@ -1379,6 +1379,16 @@ gap: 1rem 1.25rem;
   .home__container a{
     color: rgb(217, 196, 0);
   }
+  .projects__container{
+    overflow: hidden;
+  }
+  .projects__container .swiper-button-prev{
+    left: 1rem;
+
+  }
+  .projects__container .swiper-button-next{
+    right:1rem;
+  }
 
 
 
@@ -1420,6 +1430,19 @@ gap: 1rem 1.25rem;
   .projects__container{
     width: 500px;
   }
+
+  .projects__container{
+    overflow: hidden;
+  }
+  .projects__container .swiper-button-prev{
+    left: 1rem;
+
+  }
+  .projects__container .swiper-button-next{
+    right:1rem;
+  }
+
+
   .contact__form{
     width: 360px;
   }
