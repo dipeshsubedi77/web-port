@@ -82,7 +82,7 @@ const sendEmail = (e) =>{
     emailjs.sendForm('service_1i08n4o','template_t7ol4l7','#contact-form','MtVl9nbS6Aht3PxDZ')
     .then(() =>{
       contactMessage.classList.add('color-blue')
-      contactMessage.textContent = 'Message sent 🥵😒🤗'
+      contactMessage.textContent = 'Message delivered 🤗'
     })
   }
 
