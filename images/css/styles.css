@@ -973,7 +973,7 @@ font-weight: initial;
 /* For small devices */
 @media screen and (max-width: 340px){
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image: url('/images/img/dipeshnewpp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1032,14 +1032,14 @@ gap: 1rem 1.25rem;
 
 @media screen and (max-width: 440px){
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image: url('/images/img/dipeshnewpp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
   }
   .home__container h3{
-    color: #141163;
+    color: #20e70e;
     font-size: 20px;
   }
   .home__container p{
@@ -1093,14 +1093,14 @@ gap: 1rem 1.25rem;
 
 @media screen and (max-width: 500px){
   .home__container{
-    background-image: url('/images/img/condo.jpg');
+    background-image: url('/images/img/dipeshnewpp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
   }
   .home__container h3{
-    color: #141163;
+    color: #20e70e;
     font-size: 20px;
   }
   .home__container p{
@@ -1152,14 +1152,14 @@ gap: 1rem 1.25rem;
 /* more than 440 */
 @media screen and (max-width: 470px){
   .home__container{
-    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/condo.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/dipeshnewpp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
   }
   .home__container h3{
-    color: #141163;
+    color: #20e70e;
     font-size: 20px;
     font-weight: 100;
   }
@@ -1222,14 +1222,14 @@ gap: 1rem 1.25rem;
   
 
   .home__container{
-    background-image:linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/condo.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%), url('/images/img/dipeshnewpp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
   }
   .home__container h3{
-    color: #141163;
+    color: #20e70e;
     font-size: 20px;
   }
   .home__container p{
