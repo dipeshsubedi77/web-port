@@ -212,6 +212,7 @@ body.dark-theme {
   color:var(--title-color);
 }
 .nav__logo{
+  
   font-family: var(--title-font);
   font-weight: var(--font-medium);
 }
@@ -1595,3 +1596,9 @@ gap: 1rem 1.25rem;
   animation:typing steps(10) infinite;
 
 }
+
+
+/* blog page
+ */
+
+ 
