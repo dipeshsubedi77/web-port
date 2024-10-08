@@ -1,6 +1,9 @@
-const hamburger = document.querySelector("#hamburger")
-const menu = document.querySelector("#menu")
-hamburger.addEventListener("click", ()=>{
-    menu.classList.toggle("hidden")
-    hamburger.classList.toggle("bg-white")
-})
+
+    const exampleText = ['Graphic Designer', 'graphic designer', 'freelancer', 'youtuber'];
+    const exampleTyping = new AutoTyping('#move', exampleText, {
+        typeSpeed: 50,
+        deleteSpeed: 50,
+        waitBeforeDelete: 2000,
+        waitBetweenWords: 500,
+    });
+    exampleTyping.start()
